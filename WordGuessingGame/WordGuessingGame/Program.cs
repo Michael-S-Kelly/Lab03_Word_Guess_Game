@@ -89,7 +89,7 @@ namespace WordGuessingGame
 
             try
             {
-                CreateFile(path);
+                CheckFile(path);
 
                 string choice = Console.ReadLine();
 
@@ -129,6 +129,19 @@ namespace WordGuessingGame
                 Console.WriteLine("Please press enter to try again.");
                 Console.ReadLine();
                 throw;
+            }
+        }
+        #endregion
+        #region Check File
+        static void CheckFile(string path)
+        {
+            if (File.Exists(path))
+            {
+
+            }
+            else
+            {
+                CreateFile(path);
             }
         }
         #endregion
@@ -177,12 +190,16 @@ namespace WordGuessingGame
         static void AddWord(string path)
         {
             Console.WriteLine("Please enter the word that you wish to add.");
-            string word = Console.ReadLine();
+            
             using (StreamWriter sw = File.AppendText(path))
             {
+                string word = Console.ReadLine();
                 sw.WriteLine(word);
             }
         }
+        #endregion
+        #region Delete Word
+
         #endregion
     }
 }
