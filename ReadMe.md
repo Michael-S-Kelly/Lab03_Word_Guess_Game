@@ -33,23 +33,23 @@ Then select and open ```WordGuessingGame.sln```
 
 
 ##### Application Start
-![Image 1](Assets/MainNav.PNG)
+![Image 1](WordGuessingGame/Assets/MainNav.PNG)
 ##### Start of Game
-![Image 2](Assets/BeginGame.PNG)
+![Image 2](WordGuessingGame/Assets/BeginGame.PNG)
 ##### Playing Game
-![Image 3](Assets/PlayGame.PNG)
+![Image 3](WordGuessingGame/Assets/PlayGame.PNG)
 ##### Win the Game
-![Image 4](Assets/WinGame.PNG)
+![Image 4](WordGuessingGame/Assets/WinGame.PNG)
 ##### End of Game
-![Image 5](Assets/EndGame.PNG)
+![Image 5](WordGuessingGame/Assets/EndGame.PNG)
 ##### Options Navigation
-![Image 6](Assets/AdminNav.PNG)
+![Image 6](WordGuessingGame/Assets/AdminNav.PNG)
 ##### Display Words
-![Image 7](Assets/DisplayWords.PNG)
+![Image 7](WordGuessingGame/Assets/DisplayWords.PNG)
 ##### Add Word
-![Image 8](Assets/AddWord.PNG)
+![Image 8](WordGuessingGame/Assets/AddWord.PNG)
 ##### Delete Word
-![Image 9](Assets/DeleteWord.PNG)
+![Image 9](WordGuessingGame/Assets/DeleteWord.PNG)
 
 ------------------------------
 
