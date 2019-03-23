@@ -33,19 +33,23 @@ Then select and open ```WordGuessingGame.sln```
 
 
 ##### Application Start
-![Image 1](Assets/Begin.PNG)
-##### Checking Balance
-![Image 2](Assets/CheckBal.PNG)
-##### First Withdrawal of the session
-![Image 3](Assets/FirstWith.PNG)
-##### Withdrawals after the first
-![Image 4](Assets/AfterWith.PNG)
-##### First Deposit of the session
-![Image 5](Assets/firstDep.PNG)
-##### Deposits after the first
-![Image 6](Assets/AfterDep.PNG)
-##### Application End
-![Image 6](Assets/end.PNG)
+![Image 1](Assets/MainNav.PNG)
+##### Start of Game
+![Image 2](Assets/BeginGame.PNG)
+##### Playing Game
+![Image 3](Assets/PlayGame.PNG)
+##### Win the Game
+![Image 4](Assets/WinGame.PNG)
+##### End of Game
+![Image 5](Assets/EndGame.PNG)
+##### Options Navigation
+![Image 6](Assets/AdminNav.PNG)
+##### Display Words
+![Image 7](Assets/DisplayWords.PNG)
+##### Add Word
+![Image 8](Assets/AddWord.PNG)
+##### Delete Word
+![Image 9](Assets/DeleteWord.PNG)
 
 ------------------------------
 
