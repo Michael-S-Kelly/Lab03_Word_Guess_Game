@@ -3,7 +3,7 @@ using System.IO;
 
 namespace WordGuessingGame
 {
-    class Program
+    public class Program
     {
         #region Main
         static void Main(string[] args)
@@ -201,7 +201,7 @@ namespace WordGuessingGame
         /// <param name="letters">This is an array of letters created from the string word from the StartGame method</param>
         /// <param name="guessLetters">This is an array that starts off full of '_' and is updated in the PlayGame method bassed on user guesses</param>
         /// <returns>This is the number of indexes that are equal to each other between the letters and guessLetters array</returns>
-        static int CheckForWin(char[] letters, char[] guessLetters)
+        public static int CheckForWin(char[] letters, char[] guessLetters)
         {
             int lettersGuessed = 0;
             for (int i = 0; i < letters.Length; i++)
@@ -251,12 +251,20 @@ namespace WordGuessingGame
                 }
                 else if (choice == "2")
                 {
-                    AddWord(path);
+                    Console.WriteLine("Please enter the word that you wish to add.");
+
+                    string word = Console.ReadLine();
+
+                    AddWord(path, word);
                     return true;
                 }
                 else if (choice == "3")
                 {
-                    DeleteWord(path);
+                    Console.WriteLine("Please enter the word you wish to remove from the game list.");
+
+                    string deleteWord = Console.ReadLine();
+
+                    DeleteWord(path, deleteWord);
                     return true;
                 }
                 else if (choice == "4")
@@ -325,7 +333,7 @@ namespace WordGuessingGame
         /// </summary>
         /// <param name="path">This is the path string to give the location to the text file from the Main method</param>
         /// <returns></returns>
-        static string[] ReadWordList(string path)
+        public static string[] ReadWordList(string path)
         {
             
 
@@ -359,13 +367,11 @@ namespace WordGuessingGame
         /// This method adds an user inputted word to the wordlist text file
         /// </summary>
         /// <param name="path">This is the path string to give the location to the text file from the Main method</param>
-        static void AddWord(string path)
+        public static void AddWord(string path, string word)
         {
-            Console.WriteLine("Please enter the word that you wish to add.");
-            
             using (StreamWriter sw = File.AppendText(path))
             {
-                string word = Console.ReadLine();
+                
                 sw.WriteLine(word);
             }
         }
@@ -375,12 +381,8 @@ namespace WordGuessingGame
         /// This method deletes an user inputted word from the wordlist text file
         /// </summary>
         /// <param name="path">This is the path string to give the location to the text file from the Main method</param>
-        static void DeleteWord(string path)
+        public static void DeleteWord(string path, string deleteWord)
         {
-            Console.WriteLine("Please enter the word you wish to remove from the game list.");
-
-            string deleteWord = Console.ReadLine();
-
             string[] wordList = ReadWordList(path);
             File.WriteAllText(path, String.Empty);
             using (StreamWriter sw = new StreamWriter(path))
