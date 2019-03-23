@@ -62,6 +62,8 @@ Then select and open ```WordGuessingGame.sln```
 ### Contributors
 ####Phil Werner
 
+#####Chris Morton
+
 
 ### Other Resources
 ####https://stackoverflow.com/questions/12633815/lines-of-a-streamreader-to-an-array-of-strring
