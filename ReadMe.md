@@ -65,6 +65,10 @@ Then select and open ```WordGuessingGame.sln```
 
 ### Other Resources
 ####https://stackoverflow.com/questions/12633815/lines-of-a-streamreader-to-an-array-of-strring
+####https://stackoverflow.com/questions/49853842/how-to-use-iffile-exists-statement
+####https://stackoverflow.com/questions/1245243/delete-specific-line-from-a-text-file
+####https://stackoverflow.com/questions/2706500/how-do-i-generate-a-random-int-number
+####https://docs.microsoft.com/en-us/dotnet/api/system.random?view=netframework-4.7.2
 
 ------------------------------
 For more information on Markdown: https://www.markdownguide.org/cheat-sheet
