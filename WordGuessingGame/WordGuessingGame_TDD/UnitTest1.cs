@@ -111,9 +111,16 @@ namespace WordGuessingGame_TDD
             // Act
             DeleteWord(path, removeWord);
             string[] word = ReadWordList(path);
-
+            bool puppy = false;
+            for (int i = 0; i < word.Length; i++)
+            {
+                if (word[i] == "puppy")
+                {
+                    puppy = true;
+                }
+            }
             // Assert
-            Assert.NotEqual("puppy", word[1]);
+            Assert.False(puppy);
 
         }
     }
