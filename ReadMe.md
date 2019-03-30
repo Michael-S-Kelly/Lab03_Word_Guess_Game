@@ -54,7 +54,7 @@ Then select and open ```WordGuessingGame.sln```
 ------------------------------
 
 ## Change Log
-
+1.1 Fixed RemoveWords test...it now passes.
 
 
 
@@ -62,11 +62,12 @@ Then select and open ```WordGuessingGame.sln```
 ## Collaborators, Contributors, and Other Resources used
 
 ### Collaborators
+#### Phil Werner
+##### Chris Morton
+#### Jimmy Chang
 
 ### Contributors
-####Phil Werner
 
-#####Chris Morton
 
 
 ### Other Resources
